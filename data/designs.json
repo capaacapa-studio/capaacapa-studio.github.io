@@ -1,5 +1,139 @@
 [
  {
+  "n": 50,
+  "slug": "seed_screw",
+  "name": "Seed Screw",
+  "tagline": "Drill perfect planting holes by hand",
+  "series": "Spring Prep",
+  "summary": "A hand auger for sowing: push, twist clockwise and it drills a clean 22 mm hole for seeds, bulbs or seedling plugs, even in firm soil. The depth disc threads along the screw like a nut, so you set the depth once (1 to 7 cm) and every hole comes out the same. Prints without supports.",
+  "caption": "Stop poking holes with your finger. 🌱\n\nPush, twist, done: a perfect planting hole every time.\nSpin the disc to set the depth, from 1 to 7 cm.\nSeeds, bulbs, seedlings. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat are you planting next? 🌷👇\n\n#3dprinting #3dprinted #stl #freestl #3ddesign #makers #springprep #dibber #seedplanting #auger #gardentool #sowing",
+  "print": {
+   "material": "PETG (tougher in soil) or PLA",
+   "layer": "0.2 mm",
+   "walls": "4 perimeters",
+   "infill": "40% (it takes torque)",
+   "supports": "No",
+   "orientation": "Tool standing on its handle, tip up; disc flat",
+   "bed": "5 mm brim on the tool: it is tall",
+   "notes": [
+    "Thread the disc on from the tip and spin it to the depth you want",
+    "Works best in loose or slightly damp soil; it is not for stony ground",
+    "Disc too tight? Scale it 102% in X and Y"
+   ]
+  },
+  "spec": {
+   "dims_mm": [
+    96,
+    52,
+    113
+   ],
+   "grams": {
+    "PLA": 44,
+    "PETG": 45
+   },
+   "meters": 14.8,
+   "cost_eur": {
+    "PLA": 0.89,
+    "PETG": 1.0
+   },
+   "hours": {
+    "rapida": 1.0,
+    "clasica": 2.5
+   },
+   "material_cm3": 35.7
+  },
+  "files": [
+   {
+    "name": "seed_screw_tool.stl",
+    "label": "Screw Tool"
+   },
+   {
+    "name": "seed_screw_depth_disc.stl",
+    "label": "Depth Disc"
+   }
+  ],
+  "ig": [
+   "instagram/1_video.mp4",
+   "instagram/2_dimensions.jpg",
+   "instagram/3_print_time.jpg",
+   "instagram/4_material_cost.jpg",
+   "instagram/5_print_settings.jpg"
+  ],
+  "drawing": true,
+  "parts": [
+   {
+    "name": "Screw Tool",
+    "qty": 1,
+    "dims_mm": [
+     96.0,
+     23.2,
+     113.0
+    ],
+    "material_cm3": 29.0,
+    "stl": "seed_screw_tool.stl",
+    "color": "#ff8a4c"
+   },
+   {
+    "name": "Depth Disc",
+    "qty": 1,
+    "dims_mm": [
+     52.0,
+     52.0,
+     4.0
+    ],
+    "material_cm3": 6.7,
+    "stl": "seed_screw_depth_disc.stl",
+    "color": "#c6ff3d"
+   }
+  ],
+  "steps": [
+   "Print the tool standing on its handle and the disc flat.",
+   "Thread the disc onto the screw from the tip and spin it to your sowing depth.",
+   "Push the tip into the soil and twist clockwise until the disc touches the ground.",
+   "Pull straight out, drop the seed or bulb in and cover."
+  ],
+  "assembly": [
+   {
+    "part": 0,
+    "R": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     -1.0,
+     0.0,
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "T": [
+     0.0,
+     0.0,
+     83.0
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     -0.996917,
+     0.078459,
+     0.0,
+     0.078459,
+     0.996917,
+     0.0,
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "T": [
+     0.0,
+     0.0,
+     4.0
+    ]
+   }
+  ]
+ },
+ {
   "n": 8,
   "slug": "enrollador_cables",
   "name": "Bone Cable Winder",
