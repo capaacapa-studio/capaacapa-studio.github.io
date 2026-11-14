@@ -1,12 +1,12 @@
 [
 {
-"n": 50,
+"n": 6,
 "slug": "seed_screw",
 "name": "Seed Screw",
 "tagline": "Drill perfect planting holes by hand",
 "series": "Garden",
 "summary": "A hand auger for sowing: push, twist clockwise and it drills a clean 22 mm hole for seeds, bulbs or seedling plugs, even in firm soil. The depth disc threads along the screw like a nut, so you set the depth once (1 to 7 cm) and every hole comes out the same. Prints without supports.",
-"caption": "Stop poking holes with your finger. 🌱\n\nPush, twist, done: a perfect planting hole every time.\nSpin the disc to set the depth, from 1 to 7 cm.\nSeeds, bulbs, seedlings. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat are you planting next? 🌷👇\n\n#3dprinting #3dprinted #stl #freestl #3ddesign #makers #springprep #dibber #seedplanting #auger #gardentool #sowing",
+"caption": "Stop poking holes with your finger. 🌱\n\nPush, twist, done: a perfect planting hole every time.\nSpin the disc to set the depth, from 1 to 7 cm.\nSeeds, bulbs, seedlings. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat are you planting next? 🌷👇\n\n#3dprinting #freestl #gardentool #seedstarting #gardening",
 "print": {
 "material": "PETG (tougher in soil) or PLA",
 "layer": "0.2 mm",
@@ -140,7 +140,7 @@
 "tagline": "Snap bamboo canes into an obelisk, no string",
 "series": "Garden",
 "summary": "A top hub and 8 snap clips that turn bamboo canes into a sturdy obelisk for climbing beans, peas, sweet peas or tomatoes. The hub takes four 8–11 mm canes at 20°, and each clip snaps onto a leg and cradles a horizontal rung. No string, no knots, everything comes apart for winter. Prints without supports.",
-"caption": "No string. No knots. 🌱\n\n1 hub + 8 clips turn bamboo canes into a climbing obelisk.\nSnap it together in 5 minutes, take it apart for winter.\nPerfect for beans, peas and tomatoes. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat's climbing in your garden? 🫛👇\n\n#3dprinting #3dprinted #stl #freestl #3ddesign #makers #garden #bamboo #obelisk #trellis #plantsupport",
+"caption": "No string. No knots. 🌱\n\n1 hub + 8 clips turn bamboo canes into a climbing obelisk.\nSnap it together in 5 minutes, take it apart for winter.\nPerfect for beans, peas and tomatoes. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat's climbing in your garden? 🫛👇\n\n#3dprinting #freestl #trellis #vegetablegarden #functionalprint",
 "print": {
 "material": "PETG or ASA (outdoors, UV)",
 "layer": "0.2 mm",
@@ -413,7 +413,7 @@
 "tagline": "6-cup seed starter that feeds your Hydro Tower",
 "series": "Garden",
 "summary": "A 6-cup hydroponic seed starter. Fill the tray with water and nutrients, sow into the net cups and let the roots grow down into the water. The cups are the same as the Hydro Tower's, so seedlings move straight into the tower without touching the roots. Prints without supports.",
-"caption": "From seed to tower. 🌱\n\nSow in the cups, add water, watch the roots grow.\nWhen they're ready, move each cup straight into the Hydro Tower.\nNo soil. No mess. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat are you sowing first? 🌿👇\n\n#3dprinting #3dprinted #stl #freestl #3ddesign #makers #garden #seedstarter #hydroponics #seedlings #kratky #netcup",
+"caption": "From seed to tower. 🌱\n\nSow in the cups, add water, watch the roots grow.\nWhen they're ready, move each cup straight into the Hydro Tower.\nNo soil. No mess. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat are you sowing first? 🌿👇\n\n#3dprinting #freestl #hydroponics #seedstarting #functionalprint",
 "print": {
 "material": "PETG (holds water for weeks); PLA is fine for the lid and cups",
 "layer": "0.2 mm",
@@ -684,7 +684,7 @@
 "tagline": "Turn any bottle into a slow plant waterer",
 "series": "Garden",
 "summary": "Push any standard water or soda bottle (28 mm neck) into the cup, flip it into the pot and it waters your plant slowly for days. Six ribs grip the bottle threads, a 1.2 mm channel keeps the drip slow and the stop disc sets the depth and keeps soil out. Prints without supports.",
-"caption": "Going away? Your plants won't notice. 🌱\n\nPush any bottle in, flip it into the pot, done.\nIt drips slowly for days. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhere would you use it first? 🪴👇\n\n#3dprinting #3dprinted #stl #freestl #3ddesign #makers #garden #plantwaterer #drip #holiday #bottle",
+"caption": "Going away? Your plants won't notice. 🌱\n\nPush any bottle in, flip it into the pot, done.\nIt drips slowly for days. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhere would you use it first? 🪴👇\n\n#3dprinting #freestl #plantcare #houseplants #functionalprint",
 "print": {
 "material": "PETG (water) or PLA",
 "layer": "0.2 mm",
@@ -823,7 +823,7 @@
 "tagline": "Stackable vertical hydroponic garden",
 "series": "Garden",
 "summary": "A vertical hydroponic tower you can stack as high as you like. Each segment has three 45° pockets for standard net cups and twists 60° from the one below, so every plant gets light. A small pump lifts water to the top cap, it trickles down through the roots and drains back into the bucket through the base. Prints without supports.",
-"caption": "Grow up, not out. 🌱\n\nA hydroponic tower you can print at home.\n6 plants. 20 cm wide. Zero supports.\nWant more? Just stack another level.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat would you grow first? 🌿👇\n\n#3dprinting #3dprinted #stl #freestl #3ddesign #makers #garden #hydroponics #verticalgarden #towergarden #growyourown #netcup",
+"caption": "Grow up, not out. 🌱\n\nA hydroponic tower you can print at home.\n6 plants. 20 cm wide. Zero supports.\nWant more? Just stack another level.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat would you grow first? 🌿👇\n\n#3dprinting #freestl #hydroponics #verticalgarden #growyourown",
 "print": {
 "material": "PETG (water resistant) — avoid PLA for parts that sit in water for months",
 "layer": "0.2 mm",
@@ -1159,7 +1159,7 @@
 "tagline": "Faceted planter with a twist and matching saucer",
 "series": "Garden",
 "summary": "A 12-sided planter that twists 60° from bottom to top, with a drainage hole and a matching saucer. Prints without supports — perfect for succulents, cacti or herbs.",
-"caption": "Twist Planter 🧩 Faceted planter with a twist and matching saucer.\nNo supports · 148 g PLA · 3 h 20 min print.\nDesign #1 of the Garden series. Swipe for size, print time, cost & settings →\nFree STL — link in bio 🔗\nSave it for your next print 📌\n\n#3dprinting #3dprinted #stl #freestl #3ddesign #makers #garden #planter #pot #succulents #twist",
+"caption": "I designed this with code. 🌱\n\nA faceted planter with a twist and a matching saucer.\n148 g of PLA, 3 h 20 min. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat would you plant in it? 🪴👇\n\n#3dprinting #freestl #planter #succulents #functionalprint",
 "print": {
 "material": "PLA or PETG (PETG if it lives outdoors or gets watered a lot)",
 "layer": "0.2 mm",
