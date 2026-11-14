@@ -134,63 +134,6 @@
 ]
 },
 {
-"n": 8,
-"slug": "enrollador_cables",
-"name": "Bone Cable Winder",
-"tagline": "Tidy cables in your suitcase, no knots",
-"series": "Travel",
-"summary": "A flat bone-shaped winder: wrap the cable around the waist and the end notches hold the tip. Perfect for earbuds and travel chargers. Prints in minutes, no supports.",
-"caption": "Bone Cable Winder 🧩 Tidy cables in your suitcase, no knots.\nNo supports · 9 g PLA · 10 min print.\nDesign #8 of the Travel series. Swipe for size, print time, cost & settings →\nFree STL — link in bio 🔗\nSave it for your next print 📌\n\n#3dprinting #3dprinted #stl #freestl #3ddesign #makers #travel #travel #cables #organizer #cablewinder",
-"print": {
-"material": "PLA or PETG (PETG for a bit more flex)",
-"layer": "0.2 mm",
-"walls": "3 perimeters",
-"infill": "20%",
-"supports": "No",
-"orientation": "Flat on the bed",
-"bed": "No brim",
-"notes": [
-"Print a few in different colors to tell each cable apart",
-"For thick laptop cables, scale it to 130%"
-]
-},
-"spec": {
-"dims_mm": [
-84,
-34,
-4
-],
-"grams": {
-"PLA": 9,
-"PETG": 10
-},
-"meters": 3.2,
-"cost_eur": {
-"PLA": 0.19,
-"PETG": 0.21
-},
-"hours": {
-"rapida": 0.2,
-"clasica": 0.5
-},
-"material_cm3": 7.6
-},
-"files": [
-{
-"name": "bone_cable_winder.stl",
-"label": "Winder"
-}
-],
-"ig": [
-"instagram/1_video.mp4",
-"instagram/2_dimensions.jpg",
-"instagram/3_print_time.jpg",
-"instagram/4_material_cost.jpg",
-"instagram/5_print_settings.jpg"
-],
-"drawing": true
-},
-{
 "n": 5,
 "slug": "cane_connectors",
 "name": "Cane Connector Kit",
