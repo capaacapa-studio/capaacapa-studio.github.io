@@ -57,6 +57,279 @@
   "drawing": true
  },
  {
+  "n": 5,
+  "slug": "cane_connectors",
+  "name": "Cane Connector Kit",
+  "tagline": "Snap bamboo canes into an obelisk, no string",
+  "series": "Garden",
+  "summary": "A top hub and 8 snap clips that turn bamboo canes into a sturdy obelisk for climbing beans, peas, sweet peas or tomatoes. The hub takes four 8–11 mm canes at 20°, and each clip snaps onto a leg and cradles a horizontal rung. No string, no knots, everything comes apart for winter. Prints without supports.",
+  "caption": "No string. No knots. 🌱\n\n1 hub + 8 clips turn bamboo canes into a climbing obelisk.\nSnap it together in 5 minutes, take it apart for winter.\nPerfect for beans, peas and tomatoes. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat's climbing in your garden? 🫛👇\n\n#3dprinting #3dprinted #stl #freestl #3ddesign #makers #garden #bamboo #obelisk #trellis #plantsupport",
+  "print": {
+   "material": "PETG or ASA (outdoors, UV)",
+   "layer": "0.2 mm",
+   "walls": "4 perimeters (clips flex every time you snap them)",
+   "infill": "25%",
+   "supports": "No",
+   "orientation": "Hub upside down (flat top on the bed); clips flat as in the file",
+   "bed": "No brim needed",
+   "notes": [
+    "Fits bamboo canes from 8 to 11 mm",
+    "PETG flexes better than PLA for the snap clips",
+    "Print 4 extra clips for every extra rung level"
+   ]
+  },
+  "spec": {
+   "dims_mm": [
+    58,
+    58,
+    44
+   ],
+   "grams": {
+    "PLA": 66,
+    "PETG": 67
+   },
+   "meters": 22.0,
+   "cost_eur": {
+    "PLA": 1.31,
+    "PETG": 1.48
+   },
+   "hours": {
+    "rapida": 1.5,
+    "clasica": 3.7
+   },
+   "material_cm3": 52.9
+  },
+  "files": [
+   {
+    "name": "cane_top_hub.stl",
+    "label": "Top Hub"
+   },
+   {
+    "name": "cane_cross_clip.stl",
+    "label": "Cross Clip (print ×8)"
+   }
+  ],
+  "ig": [
+   "instagram/1_video.mp4",
+   "instagram/2_dimensions.jpg",
+   "instagram/3_print_time.jpg",
+   "instagram/4_material_cost.jpg",
+   "instagram/5_print_settings.jpg"
+  ],
+  "drawing": true,
+  "parts": [
+   {
+    "name": "Top Hub",
+    "qty": 1,
+    "dims_mm": [
+     58.3,
+     58.3,
+     44.5
+    ],
+    "material_cm3": 29.1,
+    "stl": "cane_top_hub.stl",
+    "color": "#ff8a4c"
+   },
+   {
+    "name": "Cross Clip",
+    "qty": 8,
+    "dims_mm": [
+     16.8,
+     31.3,
+     14.5
+    ],
+    "material_cm3": 3.0,
+    "stl": "cane_cross_clip.stl",
+    "color": "#c6ff3d"
+   }
+  ],
+  "you_need": [
+   "4 bamboo canes, 1.2–1.8 m (8–11 mm thick) for the legs",
+   "8 shorter canes, about 60 cm, for the rungs"
+  ],
+  "steps": [
+   "Print 1 top hub and 8 clips.",
+   "Push the 4 leg canes into the hub's sockets.",
+   "Stand the obelisk up and push the legs 15–20 cm into the soil.",
+   "Snap 4 clips onto the legs at knee height and 4 more halfway up.",
+   "Press a rung cane into each clip's cradle, running to the next leg.",
+   "Plant beans or peas at the foot of each leg and let them climb."
+  ],
+  "assembly": [
+   {
+    "part": 0,
+    "R": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     -1.0,
+     0.0,
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "T": [
+     0.0,
+     0.0,
+     270.0
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     -0.970315,
+     -0.0,
+     -0.241845,
+     0.060278,
+     -0.968441,
+     -0.241845,
+     -0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     57.016,
+     57.016,
+     88.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     -0.060278,
+     0.968441,
+     0.241845,
+     -0.970315,
+     -0.0,
+     -0.241845,
+     -0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     -57.016,
+     57.016,
+     88.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     0.970315,
+     0.0,
+     0.241845,
+     -0.060278,
+     0.968441,
+     0.241845,
+     -0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     -57.016,
+     -57.016,
+     88.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     0.060278,
+     -0.968441,
+     -0.241845,
+     0.970315,
+     0.0,
+     0.241845,
+     -0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     57.016,
+     -57.016,
+     88.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     -0.970315,
+     -0.0,
+     -0.241845,
+     0.060278,
+     -0.968441,
+     -0.241845,
+     -0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     33.853,
+     33.853,
+     178.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     -0.060278,
+     0.968441,
+     0.241845,
+     -0.970315,
+     -0.0,
+     -0.241845,
+     -0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     -33.853,
+     33.853,
+     178.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     0.970315,
+     0.0,
+     0.241845,
+     -0.060278,
+     0.968441,
+     0.241845,
+     -0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     -33.853,
+     -33.853,
+     178.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     0.060278,
+     -0.968441,
+     -0.241845,
+     0.970315,
+     0.0,
+     0.241845,
+     -0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     33.853,
+     -33.853,
+     178.422
+    ]
+   }
+  ]
+ },
+ {
   "n": 4,
   "slug": "seedling_tray",
   "name": "Seedling Tray",
@@ -323,6 +596,145 @@
      62.0,
      31.0,
      5.8
+    ]
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "slug": "drip_waterer",
+  "name": "Bottle Drip Waterer",
+  "tagline": "Turn any bottle into a slow plant waterer",
+  "series": "Garden",
+  "summary": "Push any standard water or soda bottle (28 mm neck) into the cup, flip it into the pot and it waters your plant slowly for days. Six ribs grip the bottle threads, a 1.2 mm channel keeps the drip slow and the stop disc sets the depth and keeps soil out. Prints without supports.",
+  "caption": "Going away? Your plants won't notice. 🌱\n\nPush any bottle in, flip it into the pot, done.\nIt drips slowly for days. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhere would you use it first? 🪴👇\n\n#3dprinting #3dprinted #stl #freestl #3ddesign #makers #garden #plantwaterer #drip #holiday #bottle",
+  "print": {
+   "material": "PETG (water) or PLA",
+   "layer": "0.2 mm",
+   "walls": "3 perimeters",
+   "infill": "20%",
+   "supports": "No",
+   "orientation": "Spike standing on its cup (tip up); disc flat, hub up",
+   "bed": "5 mm brim on the spike: it is tall and thin",
+   "notes": [
+    "Fits standard 28 mm (PCO) water and soda bottles",
+    "Drip rate depends on your soil: test it for a day before you leave",
+    "Too slow? Open the channel with a 2 mm drill bit. Too fast? Push the spike deeper into firm soil",
+    "Slower drip: push the spike deeper; faster: lift it",
+    "Fill the bottle, press the cup onto the neck, then turn it over quickly"
+   ]
+  },
+  "spec": {
+   "dims_mm": [
+    64,
+    64,
+    152
+   ],
+   "grams": {
+    "PLA": 28,
+    "PETG": 28
+   },
+   "meters": 9.3,
+   "cost_eur": {
+    "PLA": 0.55,
+    "PETG": 0.62
+   },
+   "hours": {
+    "rapida": 0.6,
+    "clasica": 1.5
+   },
+   "material_cm3": 22.3
+  },
+  "files": [
+   {
+    "name": "drip_waterer_spike.stl",
+    "label": "Drip Spike"
+   },
+   {
+    "name": "drip_waterer_stop_disc.stl",
+    "label": "Stop Disc"
+   }
+  ],
+  "ig": [
+   "instagram/1_video.mp4",
+   "instagram/2_dimensions.jpg",
+   "instagram/3_print_time.jpg",
+   "instagram/4_material_cost.jpg",
+   "instagram/5_print_settings.jpg"
+  ],
+  "drawing": true,
+  "parts": [
+   {
+    "name": "Drip Spike",
+    "qty": 1,
+    "dims_mm": [
+     32.8,
+     32.8,
+     152.0
+    ],
+    "material_cm3": 15.5,
+    "stl": "drip_waterer_spike.stl",
+    "color": "#ff8a4c"
+   },
+   {
+    "name": "Stop Disc",
+    "qty": 1,
+    "dims_mm": [
+     64.0,
+     64.0,
+     7.0
+    ],
+    "material_cm3": 6.8,
+    "stl": "drip_waterer_stop_disc.stl",
+    "color": "#c6ff3d"
+   }
+  ],
+  "you_need": [
+   "Any 0.5–2 L plastic bottle with a 28 mm neck (water or soda)"
+  ],
+  "steps": [
+   "Print the spike and the stop disc.",
+   "Slide the disc onto the spike from the tip until it wedges.",
+   "Fill the bottle and press the spike's cup firmly onto its neck.",
+   "Turn it over and push the spike into the soil next to the plant, down to the disc."
+  ],
+  "assembly": [
+   {
+    "part": 0,
+    "R": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     -1.0,
+     0.0,
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "T": [
+     0.0,
+     0.0,
+     152.0
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "T": [
+     0.0,
+     0.0,
+     57.0
     ]
    }
   ]
