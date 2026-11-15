@@ -3,44 +3,45 @@
 "n": 106,
 "slug": "bee_panel",
 "name": "Bee Panel",
-"tagline": "A comb frame and a royal jelly bar",
+"tagline": "A modular hive kit for honey and royal jelly",
 "series": "Garden",
-"summary": "Two pieces for small-scale beekeeping. The honey frame is a 150 mm panel with a hex-cell foundation the bees draw their comb on, and top-bar ears that rest on the hive rebate. The jelly bar holds eight 9 mm queen cups for collecting royal jelly. Both print flat without supports. Use food-safe filament if anything will touch honey.",
-"caption": "A home for honey. 🍯\n\nHex-cell comb frame, 150 mm.\n8 queen cups for royal jelly.\nPrint both in about 3 hours.\nZero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nDo you keep bees? 🐝👇\n\n#3dprinting #freestl #beekeeping #honey #garden",
+"summary": "A modular beekeeping kit. The honey frame is a 150 mm panel with a hex-cell foundation the bees draw their comb on, and ears that rest on the ledge of the hive module. The jelly bar holds eight 9 mm queen cups for royal jelly. The hive is a base with a bee entrance, stackable modules and a roof: add a module whenever you need more frames. All parts print without supports; the ledges and the entrance arch are cut at 45 degrees. Use food-safe filament if anything will touch honey.",
+"caption": "A home for honey. 🍯\n\nHex-cell comb frame, 150 mm.\n8 queen cups for royal jelly.\nBase, stackable modules and roof.\nZero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nDo you keep bees? 🐝👇\n\n#3dprinting #freestl #beekeeping #honey #garden",
 "print": {
 "material": "PETG (food-safe) or PLA",
 "layer": "0.2 mm",
-"walls": "2 perimeters",
+"walls": "3 perimeters",
 "infill": "15%",
 "supports": "No",
-"orientation": "Flat on the bed",
+"orientation": "Frame and roof flat, base and module upright",
 "bed": "No brim needed",
 "notes": [
 "Use food-safe filament for honey",
 "Wash with warm water, no soap residue",
-"Rub a little beeswax on the cells"
+"Rub a little beeswax on the cells",
+"Stack as many modules as you like"
 ]
 },
 "spec": {
 "dims_mm": [
-182,
-112,
-13
+200,
+46,
+129
 ],
 "grams": {
-"PLA": 62,
-"PETG": 63
+"PLA": 323,
+"PETG": 331
 },
-"meters": 20.6,
+"meters": 108.2,
 "cost_eur": {
-"PLA": 1.23,
-"PETG": 1.39
+"PLA": 6.46,
+"PETG": 7.27
 },
 "hours": {
-"rapida": 1.4,
-"clasica": 3.4
+"rapida": 7.2,
+"clasica": 18.1
 },
-"material_cm3": 49.6
+"material_cm3": 260.3
 },
 "files": [
 {
@@ -50,6 +51,18 @@
 {
 "name": "bee_panel_jelly_bar.stl",
 "label": "Jelly Bar"
+},
+{
+"name": "bee_panel_hive_base.stl",
+"label": "Hive Base"
+},
+{
+"name": "bee_panel_hive_module.stl",
+"label": "Hive Module"
+},
+{
+"name": "bee_panel_hive_roof.stl",
+"label": "Hive Roof"
 }
 ],
 "ig": [
@@ -84,12 +97,145 @@
 "material_cm3": 10.0,
 "stl": "bee_panel_jelly_bar.stl",
 "color": "#f0f0ec"
+},
+{
+"name": "Hive Base",
+"qty": 1,
+"dims_mm": [
+192.0,
+38.0,
+24.0
+],
+"material_cm3": 49.8,
+"stl": "bee_panel_hive_base.stl",
+"color": "#d69628"
+},
+{
+"name": "Hive Module",
+"qty": 1,
+"dims_mm": [
+192.0,
+38.0,
+101.0
+],
+"material_cm3": 133.5,
+"stl": "bee_panel_hive_module.stl",
+"color": "#ffbe3c"
+},
+{
+"name": "Hive Roof",
+"qty": 1,
+"dims_mm": [
+200.0,
+46.0,
+4.0
+],
+"material_cm3": 27.3,
+"stl": "bee_panel_hive_roof.stl",
+"color": "#f0f0ec"
 }
 ],
 "steps": [
-"Print the frame and the jelly bar flat.",
-"Hang the frame by its ears in the hive.",
-"Fix the jelly bar in a frame slot and let the bees fill the cups."
+"Print the frame and the jelly bar flat, and the base and module upright.",
+"Stand the module on the base and hang the frame by its ears on the ledge.",
+"Stack more modules for more frames, then put the roof on."
+],
+"assembly": [
+{
+"part": 2,
+"R": [
+1.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+1.0
+],
+"T": [
+0.0,
+0.0,
+0.0
+]
+},
+{
+"part": 3,
+"R": [
+1.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+1.0
+],
+"T": [
+0.0,
+0.0,
+24.0
+]
+},
+{
+"part": 4,
+"R": [
+1.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+1.0
+],
+"T": [
+0.0,
+0.0,
+165.0
+]
+},
+{
+"part": 0,
+"R": [
+1.0,
+0.0,
+0.0,
+0.0,
+0.0,
+-1.0,
+0.0,
+1.0,
+0.0
+],
+"T": [
+0.0,
+3.0,
+80.0
+]
+},
+{
+"part": 1,
+"R": [
+1.0,
+0.0,
+0.0,
+0.0,
+1.0,
+0.0,
+0.0,
+0.0,
+1.0
+],
+"T": [
+0.0,
+-50.0,
+0.0
+]
+}
 ]
 },
 {
