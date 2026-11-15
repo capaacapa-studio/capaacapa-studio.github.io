@@ -1,5 +1,195 @@
 [
  {
+  "n": 13,
+  "slug": "cane_clips",
+  "name": "Cane Clips",
+  "tagline": "Join bamboo canes without string",
+  "series": "Build January",
+  "summary": "Two snap-on clips for garden canes of 8 to 11 mm. The cross clip holds one cane at right angles to another, the parallel clip splices two canes side by side to make a longer pole. Print a bag of each: no string, no knots, nothing to unscrew. Flat prints, no supports.",
+  "caption": "Join bamboo canes without string. 🎋\n\nCross clip: canes at 90°.\nParallel clip: splice two canes.\nPrint 16 in 3 hours.\nZero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat will you build with canes? 🪵👇\n\n#3dprinting #freestl #garden #bamboo #diy",
+  "print": {
+   "material": "PETG or ASA",
+   "layer": "0.2 mm",
+   "walls": "4 perimeters",
+   "infill": "100%",
+   "supports": "No",
+   "orientation": "Flat, as in the file",
+   "bed": "No brim needed",
+   "notes": [
+    "Fits canes from 8 to 11 mm",
+    "PETG flexes better than PLA for snap clips",
+    "Print the cross and parallel clips in two colours"
+   ]
+  },
+  "spec": {
+   "dims_mm": [
+    71,
+    31,
+    14
+   ],
+   "grams": {
+    "PLA": 60,
+    "PETG": 61
+   },
+   "meters": 20.1,
+   "cost_eur": {
+    "PLA": 1.2,
+    "PETG": 1.35
+   },
+   "hours": {
+    "rapida": 1.3,
+    "clasica": 3.4
+   },
+   "material_cm3": 48.2
+  },
+  "files": [
+   {
+    "name": "cane_clips_cross_clip.stl",
+    "label": "Cross Clip (print ×8)"
+   },
+   {
+    "name": "cane_clips_parallel_clip.stl",
+    "label": "Parallel Clip (print ×8)"
+   }
+  ],
+  "ig": [
+   "instagram/1_video.mp4",
+   "instagram/2_dimensions.jpg",
+   "instagram/3_print_time.jpg",
+   "instagram/4_material_cost.jpg",
+   "instagram/5_print_settings.jpg"
+  ],
+  "drawing": true,
+  "parts": [
+   {
+    "name": "Cross Clip",
+    "qty": 8,
+    "dims_mm": [
+     16.8,
+     31.3,
+     14.5
+    ],
+    "material_cm3": 3.0,
+    "stl": "cane_clips_cross_clip.stl",
+    "color": "#c6ff3d"
+   },
+   {
+    "name": "Parallel Clip",
+    "qty": 8,
+    "dims_mm": [
+     33.6,
+     15.9,
+     14.0
+    ],
+    "material_cm3": 3.1,
+    "stl": "cane_clips_parallel_clip.stl",
+    "color": "#ff8a4c"
+   }
+  ],
+  "steps": [
+   "Print a few cross clips and parallel clips.",
+   "Snap a clip onto the first cane.",
+   "Press the second cane into the cradle, or the next ring."
+  ],
+  "assembly": [
+   {
+    "part": 1,
+    "R": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "T": [
+     8.4,
+     0.0,
+     68.0
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "T": [
+     8.4,
+     0.0,
+     84.0
+    ]
+   },
+   {
+    "part": 0,
+    "R": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "T": [
+     0.0,
+     0.0,
+     18.0
+    ]
+   },
+   {
+    "part": 0,
+    "R": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "T": [
+     0.0,
+     0.0,
+     50.0
+    ]
+   },
+   {
+    "part": 0,
+    "R": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "T": [
+     16.8,
+     0.0,
+     118.0
+    ]
+   }
+  ]
+ },
+ {
   "n": 12,
   "slug": "bird_feeder",
   "name": "Bird Feeder",
