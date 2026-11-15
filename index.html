@@ -1,14 +1,5 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Capa a Capa · Free 3D print designs</title>
-<meta name="description" content="Free original STL files for 3D printing, a new one every day. Functional designs that print without supports, with print time, cost and slicer settings.">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Capa a Capa">
-<meta property="og:title" content="Capa a Capa · Free 3D print designs, a new one every day">
-<meta property="og:description" content="Free original STL files that print without supports. Size, print time, cost and settings for every design.">
-<meta property="og:url" content="https://capaacapa-studio.github.io/">
-<meta property="og:image" content="https://capaacapa-studio.github.io/d/hydro_tower/cover.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://capaacapa-studio.github.io/">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <style>
 :root{--bg:#0e0f14;--panel:#171920;--panel2:#1e212a;--line:#2b2f3b;--acc:#ff8a4c;--lime:#c6ff3d;--txt:#f5f6f8;--mut:#969ba8}
@@ -63,20 +54,13 @@ h3{margin:6px 0 12px;font-size:18px}.sec{margin:26px 0 60px}
 pre{white-space:pre-wrap;background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:14px;font:14px/1.5 Inter,system-ui,sans-serif;margin:0}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--txt);color:#111;padding:10px 16px;border-radius:12px;font-weight:700;opacity:0;transition:opacity .2s;pointer-events:none}
 footer{color:var(--mut);text-align:center;font-size:13px;padding:24px 0 40px;border-top:1px solid var(--line)}
-.handle{text-decoration:none}.handle:hover{color:var(--acc)}
-.follow{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;background:var(--panel);border:1px solid var(--acc);border-radius:18px;padding:14px 18px;margin:0 0 22px;font-size:15px}
-.follow a{background:var(--acc);color:#111;font-weight:800;text-decoration:none;border-radius:12px;padding:9px 14px;white-space:nowrap}
 </style></head><body>
-<header><div class="wrap top"><a class="logo" href="#"><i></i>CAPA A CAPA</a><a class="handle" href="https://www.instagram.com/capaacapa.studio/" target="_blank" rel="noopener">@capaacapa.studio</a></div></header>
+<header><div class="wrap top"><a class="logo" href="#"><i></i>CAPA A CAPA</a><span class="handle">@capaacapa.studio</span></div></header>
 <main class="wrap" id="app"><p class="sub" style="padding:40px 0">Loading…</p></main>
-<footer class="wrap">License CC BY-NC-SA 4.0 · Free to use and remix with credit · <a href="https://www.instagram.com/capaacapa.studio/" target="_blank" rel="noopener">@capaacapa.studio</a></footer>
+<footer class="wrap">License CC BY-NC-SA 4.0 · Free to use and remix with credit · @capaacapa.studio</footer>
 <div class="toast" id="toast"></div>
 <script>
-const PUBLIC_BASE='https://capaacapa-studio.github.io/';
-const IG_URL='https://www.instagram.com/capaacapa.studio/';
-// The Instagram pack is a studio tool: shown only when the URL has ?studio (e.g. /?studio#seed_screw)
-const STUDIO=new URLSearchParams(location.search).has('studio');
-const followBox=t=>`<div class="follow"><span>${t}</span><a href="${IG_URL}" target="_blank" rel="noopener">Follow @capaacapa.studio</a></div>`;
+const PUBLIC_BASE='';
 let DATA=[],cur='All',dl=null,raf=null;
 const $=s=>document.querySelector(s), app=$('#app');
 const fmtH=h=>{let H=Math.floor(h),M=Math.round((h-H)*12)*5;if(M==60){H++;M=0}return H?`${H} h ${String(M).padStart(2,'0')} min`:`${M} min`};
@@ -90,11 +74,10 @@ async function fileBlob(path){if(path.endsWith('.stl')){const j=await (await fet
 async function copy(t){try{await navigator.clipboard.writeText(t);toast('Copied')}catch(e){toast('Select and copy the text')}}
 
 function list(){
-  cancelAnimationFrame(raf);document.title='Capa a Capa · Free 3D print designs';
+  cancelAnimationFrame(raf);
   const series=['All',...new Set(DATA.map(d=>d.series))];
   app.innerHTML=`<h1>Free 3D print designs,<br><b>a new one every day</b></h1>
   <p class="sub">Original designs, made to print without supports. Download the STL, check the settings and hit print.</p>
-  ${followBox('A new free design drops every day on Instagram. Follow so you don\'t miss one.')}
   <div class="filters">${series.map(s=>`<button class="chip ${s==cur?'on':''}" data-s="${esc(s)}">${esc(s)}</button>`).join('')}</div>
   <div class="grid">${DATA.filter(d=>cur=='All'||d.series==cur).map(d=>`
    <a class="card" href="#${d.slug}"><img loading="lazy" src="d/${d.slug}/cover.jpg" alt="${esc(d.name)}">
@@ -129,20 +112,19 @@ function detail(d){
    ${(d.steps||[]).length?`<div class="panel"><h3>How to assemble</h3><ol class="steps">${d.steps.map(t=>`<li>${esc(t)}</li>`).join('')}</ol></div>`:''}
    ${(d.you_need||[]).length?`<div class="panel"><h3>You'll also need</h3><ul class="need">${d.you_need.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></div>`:''}
   </div>`:''}
-  ${STUDIO?`<section class="sec"><div class="top"><h3>Instagram pack</h3><span class="handle">Post these 5 in this order as one carousel</span></div>
+  <section class="sec"><div class="top"><h3>Instagram pack</h3><span class="handle">Post these 5 in this order as one carousel</span></div>
    <div class="pack">${d.ig.map((f,i)=>`<figure>${f.endsWith('.mp4')?`<video src="d/${d.slug}/${f}" muted loop playsinline controls preload="metadata"></video>`:`<img loading="lazy" src="d/${d.slug}/${f}">`}
      <figcaption><span>${i+1} · ${labels[i]||''}</span><button data-ig="${i}">⬇</button></figcaption></figure>`).join('')}</div>
    <div class="row" style="margin-top:6px"><button class="btn acc" id="pack">⬇ Download Instagram pack (.zip)</button><button class="btn alt" id="cap">Copy caption</button></div>
-   <h3 style="margin-top:22px">Caption</h3><pre>${esc(d.caption)}</pre></section>`:`<div class="sec">${followBox('Printed it? Tag @capaacapa.studio and we\'ll share your make. A new free design every day.')}</div>`}`;
-  document.title=`${d.name} · Free STL · Capa a Capa`;
+   <h3 style="margin-top:22px">Caption</h3><pre>${esc(d.caption)}</pre></section>`;
   app.querySelectorAll('[data-f]').forEach(b=>b.onclick=async()=>{const f=d.files[+b.dataset.f];save(f.name,await fileBlob(`d/${d.slug}/${f.name}`))});
   app.querySelectorAll('[data-ig]').forEach(b=>b.onclick=async()=>{const f=d.ig[+b.dataset.ig];save(`${d.slug}_${f.split('/').pop()}`,await fileBlob(`d/${d.slug}/${f}`))});
   const zipOf=async(paths,name)=>{if(!window.JSZip){toast('Zip not available');return}toast('Preparing…');const z=new JSZip();
     for(const [p,n] of paths)z.file(n,await fileBlob(p));save(name,await z.generateAsync({type:'blob'}))};
   const all=$('#allstl');if(all)all.onclick=()=>zipOf(d.files.map(f=>[`d/${d.slug}/${f.name}`,f.name]),`${d.slug}_stl.zip`);
-  if(STUDIO)$('#pack').onclick=async()=>{if(!window.JSZip){toast('Zip not available');return}toast('Preparing…');const z=new JSZip();
+  $('#pack').onclick=async()=>{if(!window.JSZip){toast('Zip not available');return}toast('Preparing…');const z=new JSZip();
     for(const f of d.ig)z.file(f.split('/').pop(),await fileBlob(`d/${d.slug}/${f}`));z.file('caption.txt',d.caption);save(`${d.slug}_instagram.zip`,await z.generateAsync({type:'blob'}))};
-  if(STUDIO)$('#cap').onclick=()=>copy(d.caption);
+  $('#cap').onclick=()=>copy(d.caption);
   const dw=$('#drw');if(dw)dw.onclick=async()=>save(`${d.slug}_dimensions.jpg`,await fileBlob(`d/${d.slug}/medidas.jpg`));
   window.scrollTo(0,0);viewer(d)}
 
