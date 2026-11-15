@@ -211,7 +211,7 @@
   "name": "Tomato Trellis Clips",
   "tagline": "Tie tomatoes without string",
   "series": "Spring Prep",
-  "summary": "A figure-eight clip: one loop snaps around a garden cane, the other around the stem of the plant. It opens to let the stem grow and slides along the cane as the plant climbs. Print twelve at once, flat, no supports.",
+  "summary": "An S-shaped clip: one loop snaps around a garden cane, the other around the stem of the plant. It opens to let the stem grow and slides along the cane as the plant climbs. Print twelve at once, flat, no supports.",
   "caption": "Tie tomatoes without string. 🍅\n\nSnap one loop on the cane.\nSnap the other on the stem.\nPrint 12 in 30 minutes.\nZero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nHow many tomato plants this year? 🍅👇\n\n#3dprinting #freestl #springprep #tomato #plantclip",
   "print": {
    "material": "PETG or ASA",
@@ -228,24 +228,24 @@
   },
   "spec": {
    "dims_mm": [
-    35,
-    20,
+    19,
+    33,
     8
    ],
    "grams": {
-    "PLA": 19,
+    "PLA": 20,
     "PETG": 20
    },
-   "meters": 6.4,
+   "meters": 6.7,
    "cost_eur": {
-    "PLA": 0.38,
-    "PETG": 0.43
+    "PLA": 0.4,
+    "PETG": 0.45
    },
    "hours": {
     "rapida": 0.4,
     "clasica": 1.1
    },
-   "material_cm3": 15.5
+   "material_cm3": 16.1
   },
   "files": [
    {
@@ -266,8 +266,8 @@
     "name": "Clip",
     "qty": 12,
     "dims_mm": [
-     34.6,
-     20.4,
+     18.5,
+     32.8,
      8.0
     ],
     "material_cm3": 1.3,
@@ -743,8 +743,8 @@
   "name": "Cane Connector Kit",
   "tagline": "Snap bamboo canes into an obelisk, no string",
   "series": "Garden",
-  "summary": "A top hub and 8 snap clips that turn bamboo canes into a sturdy obelisk for climbing beans, peas, sweet peas or tomatoes. The hub takes four 8–11 mm canes at 20°, and each clip snaps onto a leg and cradles a horizontal rung. No string, no knots, everything comes apart for winter. Prints without supports.",
-  "caption": "No string. No knots. 🌱\n\n1 hub + 8 clips turn bamboo canes into a climbing obelisk.\nSnap it together in 5 minutes, take it apart for winter.\nPerfect for beans, peas and tomatoes. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat's climbing in your garden? 🫛👇\n\n#3dprinting #freestl #trellis #vegetablegarden #functionalprint",
+  "summary": "A top hub and 16 snap clips that turn bamboo canes into a sturdy obelisk for climbing beans, peas, sweet peas or tomatoes. The hub takes four 8–11 mm canes at 20°, and each clip snaps onto a leg and cradles a horizontal rung (every rung sits in a clip at both ends). No string, no knots, everything comes apart for winter. Prints without supports.",
+  "caption": "No string. No knots. 🌱\n\n1 hub + 16 clips turn bamboo canes into a climbing obelisk.\nSnap it together in 5 minutes, take it apart for winter.\nPerfect for beans, peas and tomatoes. Zero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhat's climbing in your garden? 🫛👇\n\n#3dprinting #freestl #trellis #vegetablegarden #functionalprint",
   "print": {
    "material": "PETG or ASA (outdoors, UV)",
    "layer": "0.2 mm",
@@ -756,7 +756,7 @@
    "notes": [
     "Fits bamboo canes from 8 to 11 mm",
     "PETG flexes better than PLA for the snap clips",
-    "Print 4 extra clips for every extra rung level"
+    "Print 8 extra clips for every extra rung level"
    ]
   },
   "spec": {
@@ -766,19 +766,19 @@
     44
    ],
    "grams": {
-    "PLA": 66,
-    "PETG": 67
+    "PLA": 95,
+    "PETG": 97
    },
-   "meters": 22.0,
+   "meters": 31.9,
    "cost_eur": {
-    "PLA": 1.31,
-    "PETG": 1.48
+    "PLA": 1.9,
+    "PETG": 2.14
    },
    "hours": {
-    "rapida": 1.5,
-    "clasica": 3.7
+    "rapida": 2.1,
+    "clasica": 5.3
    },
-   "material_cm3": 52.9
+   "material_cm3": 76.7
   },
   "files": [
    {
@@ -787,7 +787,7 @@
    },
    {
     "name": "cane_cross_clip.stl",
-    "label": "Cross Clip (print ×8)"
+    "label": "Cross Clip (print ×16)"
    }
   ],
   "ig": [
@@ -813,7 +813,7 @@
    },
    {
     "name": "Cross Clip",
-    "qty": 8,
+    "qty": 16,
     "dims_mm": [
      16.8,
      31.3,
@@ -829,11 +829,11 @@
    "8 shorter canes, about 60 cm, for the rungs"
   ],
   "steps": [
-   "Print 1 top hub and 8 clips.",
+   "Print 1 top hub and 16 clips.",
    "Push the 4 leg canes into the hub's sockets.",
    "Stand the obelisk up and push the legs 15–20 cm into the soil.",
-   "Snap 4 clips onto the legs at knee height and 4 more halfway up.",
-   "Press a rung cane into each clip's cradle, running to the next leg.",
+   "Snap 8 clips onto the legs at knee height and 8 more halfway up (two per leg, the second one a hand lower).",
+   "Press a rung cane into a clip on one leg and the lower clip on the next leg.",
    "Plant beans or peas at the foot of each leg and let them climb."
   ],
   "assembly": [
@@ -878,6 +878,25 @@
    {
     "part": 1,
     "R": [
+     -0.970315,
+     -0.0,
+     0.241845,
+     -0.060278,
+     -0.968441,
+     -0.241845,
+     0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     -61.649,
+     61.649,
+     70.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
      -0.060278,
      0.968441,
      0.241845,
@@ -897,6 +916,25 @@
    {
     "part": 1,
     "R": [
+     0.060278,
+     0.968441,
+     0.241845,
+     -0.970315,
+     -0.0,
+     0.241845,
+     0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     -61.649,
+     -61.649,
+     70.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
      0.970315,
      0.0,
      0.241845,
@@ -911,6 +949,25 @@
      -57.016,
      -57.016,
      88.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     0.970315,
+     0.0,
+     -0.241845,
+     0.060278,
+     0.968441,
+     0.241845,
+     0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     61.649,
+     -61.649,
+     70.422
     ]
    },
    {
@@ -935,6 +992,25 @@
    {
     "part": 1,
     "R": [
+     -0.060278,
+     -0.968441,
+     -0.241845,
+     0.970315,
+     0.0,
+     -0.241845,
+     0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     61.649,
+     61.649,
+     70.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
      -0.970315,
      -0.0,
      -0.241845,
@@ -949,6 +1025,25 @@
      33.853,
      33.853,
      178.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     -0.970315,
+     -0.0,
+     0.241845,
+     -0.060278,
+     -0.968441,
+     -0.241845,
+     0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     -38.486,
+     38.486,
+     160.422
     ]
    },
    {
@@ -973,6 +1068,25 @@
    {
     "part": 1,
     "R": [
+     0.060278,
+     0.968441,
+     0.241845,
+     -0.970315,
+     -0.0,
+     0.241845,
+     0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     -38.486,
+     -38.486,
+     160.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
      0.970315,
      0.0,
      0.241845,
@@ -992,6 +1106,25 @@
    {
     "part": 1,
     "R": [
+     0.970315,
+     0.0,
+     -0.241845,
+     0.060278,
+     0.968441,
+     0.241845,
+     0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     38.486,
+     -38.486,
+     160.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
      0.060278,
      -0.968441,
      -0.241845,
@@ -1006,6 +1139,25 @@
      33.853,
      -33.853,
      178.422
+    ]
+   },
+   {
+    "part": 1,
+    "R": [
+     -0.060278,
+     -0.968441,
+     -0.241845,
+     0.970315,
+     0.0,
+     -0.241845,
+     0.234212,
+     -0.249244,
+     0.939693
+    ],
+    "T": [
+     38.486,
+     38.486,
+     160.422
     ]
    }
   ]
