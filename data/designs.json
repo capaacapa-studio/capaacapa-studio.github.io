@@ -239,6 +239,98 @@
 ]
 },
 {
+"n": 86,
+"slug": "paddle_steamboat",
+"name": "Paddle Steamboat",
+"tagline": "A boat that paddles",
+"series": "Sint Kids",
+"summary": "A little steamboat with a stern paddle wheel that you print separately. The hull is flat on the bottom and the wheel clips into two side notches, so it spins with a rubber band or a push. Floats in the bath or the sink. Prints without supports.",
+"caption": "A boat that paddles. 🚢\n\nHull and wheel print flat.\nClip the wheel in the notches.\nFloats in the bath.\nZero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhere would you sail it? 🛁👇\n\n#3dprinting #freestl #toyboat #bathtoy #sintkids",
+"print": {
+"material": "PLA or PETG",
+"layer": "0.2 mm",
+"walls": "3 perimeters",
+"infill": "10%",
+"supports": "No",
+"orientation": "Hull flat, wheel on its side",
+"bed": "No brim needed",
+"notes": [
+"Untested: check it floats with your filament",
+"Use PETG, PLA softens in hot water"
+]
+},
+"spec": {
+"dims_mm": [
+96,
+52,
+54
+],
+"grams": {
+"PLA": 46,
+"PETG": 48
+},
+"meters": 15.6,
+"cost_eur": {
+"PLA": 0.93,
+"PETG": 1.05
+},
+"hours": {
+"rapida": 1.0,
+"clasica": 2.6
+},
+"material_cm3": 37.5
+},
+"files": [
+{
+"name": "paddle_steamboat_hull.stl",
+"label": "Hull"
+},
+{
+"name": "paddle_steamboat_wheel.stl",
+"label": "Wheel"
+}
+],
+"ig": [
+"instagram/1_video.mp4",
+"instagram/2_dimensions.jpg",
+"instagram/3_print_time.jpg",
+"instagram/4_material_cost.jpg",
+"instagram/5_print_settings.jpg"
+],
+"drawing": true,
+"parts": [
+{
+"name": "Hull",
+"qty": 1,
+"dims_mm": [
+96.0,
+52.0,
+54.0
+],
+"material_cm3": 27.4,
+"stl": "paddle_steamboat_hull.stl",
+"color": "#ff8a4c"
+},
+{
+"name": "Wheel",
+"qty": 1,
+"dims_mm": [
+33.2,
+36.0,
+30.0
+],
+"material_cm3": 10.0,
+"stl": "paddle_steamboat_wheel.stl",
+"color": "#c6ff3d"
+}
+],
+"steps": [
+"Print the hull and the wheel flat.",
+"Press the wheel into the stern notches.",
+"Float it and give it a push."
+]
+},
+{
 "n": 13,
 "slug": "cane_clips",
 "name": "Cane Clips",
