@@ -244,41 +244,42 @@
 "name": "Paddle Steamboat",
 "tagline": "A boat that paddles",
 "series": "Sint Kids",
-"summary": "A little steamboat with a stern paddle wheel that you print separately. The hull is flat on the bottom and the wheel clips into two side notches, so it spins with a rubber band or a push. Floats in the bath or the sink. Prints without supports.",
-"caption": "A boat that paddles. 🚢\n\nHull and wheel print flat.\nClip the wheel in the notches.\nFloats in the bath.\nZero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhere would you sail it? 🛁👇\n\n#3dprinting #freestl #toyboat #bathtoy #sintkids",
+"summary": "A little bath steamboat with a stern paddle wheel. The wheel slides onto an axle that snaps down into two keyhole arms at the stern, so it spins freely while the boat glides. Three pieces, no screws, no glue, no supports. Untested: check the axle snap and that it floats level with your filament.",
+"caption": "A boat that paddles. 🚢\n\nSlide the wheel on the axle.\nSnap it into the stern.\nPush it and watch it paddle.\nZero supports.\n\nSwipe for size, time & cost →\nFree STL 👉 link in bio\n\nWhere would you sail it? 🛁👇\n\n#3dprinting #freestl #toyboat #bathtoy #sintkids",
 "print": {
 "material": "PLA or PETG",
 "layer": "0.2 mm",
 "walls": "3 perimeters",
 "infill": "10%",
 "supports": "No",
-"orientation": "Hull flat, wheel on its side",
+"orientation": "Hull flat, wheel on its side, axle lying down",
 "bed": "No brim needed",
 "notes": [
-"Untested: check it floats with your filament",
-"Use PETG, PLA softens in hot water"
+"Untested: check the axle snap and that it floats level",
+"Use PETG: PLA softens in hot water",
+"Small parts: adult supervision for young kids"
 ]
 },
 "spec": {
 "dims_mm": [
-96,
-52,
-54
+128,
+44,
+56
 ],
 "grams": {
-"PLA": 46,
-"PETG": 48
+"PLA": 53,
+"PETG": 54
 },
-"meters": 15.6,
+"meters": 17.8,
 "cost_eur": {
-"PLA": 0.93,
-"PETG": 1.05
+"PLA": 1.06,
+"PETG": 1.2
 },
 "hours": {
-"rapida": 1.0,
-"clasica": 2.6
+"rapida": 1.2,
+"clasica": 3.0
 },
-"material_cm3": 37.5
+"material_cm3": 42.9
 },
 "files": [
 {
@@ -288,6 +289,10 @@
 {
 "name": "paddle_steamboat_wheel.stl",
 "label": "Wheel"
+},
+{
+"name": "paddle_steamboat_axle.stl",
+"label": "Axle"
 }
 ],
 "ig": [
@@ -303,11 +308,11 @@
 "name": "Hull",
 "qty": 1,
 "dims_mm": [
-96.0,
-52.0,
+122.0,
+44.0,
 54.0
 ],
-"material_cm3": 27.4,
+"material_cm3": 31.3,
 "stl": "paddle_steamboat_hull.stl",
 "color": "#ff8a4c"
 },
@@ -315,18 +320,31 @@
 "name": "Wheel",
 "qty": 1,
 "dims_mm": [
-33.2,
+32.8,
 36.0,
 30.0
 ],
-"material_cm3": 10.0,
+"material_cm3": 10.1,
 "stl": "paddle_steamboat_wheel.stl",
 "color": "#c6ff3d"
+},
+{
+"name": "Axle",
+"qty": 1,
+"dims_mm": [
+8.0,
+42.0,
+8.0
+],
+"material_cm3": 1.5,
+"stl": "paddle_steamboat_axle.stl",
+"color": "#f0f0ec"
 }
 ],
 "steps": [
-"Print the hull and the wheel flat.",
-"Press the wheel into the stern notches.",
+"Print the hull flat, the wheel on its side and the axle lying down.",
+"Slide the wheel onto the axle.",
+"Press the axle down into the two stern keyholes until it clicks.",
 "Float it and give it a push."
 ]
 },
